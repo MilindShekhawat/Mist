@@ -1,3 +1,4 @@
+/* Top Slide */
 var slideIndex = 1;
 showSlides(slideIndex);
 
@@ -25,6 +26,7 @@ function showSlides(n) {
   dots[slideIndex-1].className += " active";
 }
 
+/* Bottom mouseoverEvent */
 var divIndex = 1;
 showDiv(divIndex);
 function currentDiv(n) {
